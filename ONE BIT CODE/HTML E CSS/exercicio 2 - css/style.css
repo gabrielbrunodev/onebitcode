@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+}
+
+h1 {
+    margin: 15px;
+}
+
+li {
+    background-color: #000;
+    color: #fff;
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    margin: 15px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.selected {
+    border: 3px solid blue;
+    background-color: #000000d3;
+}
+
+.hidden {
+    display: none
+}
