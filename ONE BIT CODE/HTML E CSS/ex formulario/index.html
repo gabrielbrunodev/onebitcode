@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio de formulario</title>
+</head>
+<body>
+    <h1>Formulário de Inscrição</h1>
+
+    <form>
+        <label for="nome">Nome:</label> <br>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="telefone">WhatsApp:</label><br>
+        <input type="tel" id="telefone" name="tel" required>
+        <br><br>
+
+        <label>Área de atuação:</label><br>
+        <input type="radio" id="desenvolvimento" name="area" value="d"> 
+        <label for="desenvolvimento">Desenvolvimento</label>
+        <input type="radio" id="quality" name="area" value="q">
+        <label for="quality">Quality Assurance (QA)</label>
+        <input type="radio" id="analise" name="area" value="a">
+        <label for="analise">Análise de Dados</label>
+        <input type="radio" id="infraestrutura" name="area" value="i">
+        <label for="infraestrutura">Infraestrutura</label>
+        <br><br>
+
+        <label for="observacoes">Observações:</label><br>
+        <textarea name="observacoes" id="observacoes"></textarea>
+        <br><br>
+
+        <input type="checkbox" id="check" name="check">
+        <label for="check">Desejo receber novidades por email.</label>
+        <br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
