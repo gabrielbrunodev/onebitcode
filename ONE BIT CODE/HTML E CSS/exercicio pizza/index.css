@@ -59,9 +59,10 @@ body {
     background-color: var(--amarelo);
     padding: 10px;
     border-radius: 10px;
-    margin: 50px;
+    margin: 0 auto;
     font-size: 0.8rem;
     font-weight: 600;
+
 }
 
 .cardapio img{
@@ -103,9 +104,46 @@ h3{
     background-image: url(img/pexels-eneida-nieves-905847.jpg);
     background-size: cover;
     background-position: 50%;
+    background-attachment: fixed;
     padding: 1rem;
     text-align: center;
 }
 
+.sobre p {
+    padding: 20px 0;
+}
 
+.contato p {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+.info__contato {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.info__contato p {
+    width: 350px;
+}
+
+.botao {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+footer {
+    background-color: var(--preto);
+    color: var(--amarelo);
+    padding: 20px;
+    text-align: center;
+}
 
